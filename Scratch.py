@@ -17,7 +17,7 @@
 # p = p / np.sum(p)
 # q = [(np.exp(-dist2[i])) for i in range(len(dist2))]
 # q = q / np.sum(q)
-
+a
 # p = np.zeros(10000)
 # q = np.zeros(10000)
 # p[0:1000] = [-(i+1)*(i-1) for i in np.linspace(-1,1,num=1000)]

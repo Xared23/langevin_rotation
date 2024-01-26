@@ -11,7 +11,8 @@ EnergyModelParams={
                'D': 0.56,
                'firing_model':{'model': 'rectified_linear', 'params': {'r_slope': 100.0, 'x_thresh': -1}},
                'boundary_mode':'reflecting',
-               'verbose':True
+               'verbose':True,
+               'with_cuda':True
                }
 
 em_data_gen = energy_model.EnergyModel(**EnergyModelParams)
@@ -34,7 +35,8 @@ EnergyModelParams={
                 'D': 0.56,
                 'firing_model':{'model': 'rectified_linear', 'params': {'r_slope': 100.0, 'x_thresh': -1}},
                 'boundary_mode':'reflecting',
-                'verbose':True
+                'verbose':True,
+                'with_cuda': True
                 # 'boundary_mode':'reflecting',
                 # 'p0_model':{"model": "single_well", "params": {"miu": 200, "xmin": 0}},
                 # 'firing_model':[{"model": "linear", "params": {"r_slope": 50, "r_bias": 60}}],
